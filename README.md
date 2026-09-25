@@ -6,7 +6,7 @@ The documentation itself is maintained in the **GitLab Wiki** associated with th
 
 ## Documentation
 
-➡️ **[Go to the MBF-DLS Wiki](../../-/wikis/home)**
+➡️ **[Go to the MBF-DLS Wiki](https://gitlab.esrf.fr/diagnostics_public/mbf/mbf-docs/-/wikis/home)**
 
 ## Current status
 
