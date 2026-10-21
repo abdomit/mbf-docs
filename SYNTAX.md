@@ -180,11 +180,6 @@ Use the following syntax:
 [`📥 file.pdf`](images/file.pdf)
 ```
 
-The visible link text must:
-- Include the download icon (`📥`).
-- Display the file name.
-- Use inline code formatting around the icon and file name.
-
 The link target must point to the file in the `images/` directory.
 
 ### Examples
@@ -194,20 +189,6 @@ Link to a PDF document:
 ```markdown
 [`📥 User-Manual.pdf`](images/User-Manual.pdf)
 ```
-
-Link to a CSV file:
-
-```markdown
-[`📥 Measurement-Data.csv`](images/Measurement-Data.csv)
-```
-
-Link to a ZIP archive:
-
-```markdown
-[`📥 Software-Package.zip`](images/Software-Package.zip)
-```
-
-The file name in the link text should match the actual file name, including its extension.
 
 ## 6. General Markdown Guidelines
 
