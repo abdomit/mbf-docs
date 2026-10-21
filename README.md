@@ -14,9 +14,9 @@ This repository contains the guidelines and metadata required to maintain the MB
 
 | File | Purpose |
 |---|---|
-| `README.md` | Entry point and overview of the documentation workflow |
-| `SYNTAX.md` | Markdown conventions and cross-platform compatibility rules |
-| `VERSIONS.md` | Mapping between MBF versions and wiki documentation commits |
+| [`README.md`](README.md) | Entry point and overview of the documentation workflow |
+| [`SYNTAX.md`](SYNTAX.md) | Markdown conventions and cross-platform compatibility rules |
+| [`VERSIONS.md`](VERSIONS.md) | Mapping between MBF versions and wiki documentation commits |
 
 ## About the wiki repository
 
@@ -41,8 +41,6 @@ git clone git@github.com:abdomit/mbf-docs.wiki.git
 ```
 
 ## Versioning
-
-The wiki documentation follows the MBF versioning scheme.
 
 To access the documentation corresponding to a previous MBF version, retrieve the commit SHA recorded in `VERSIONS.md` and check out the corresponding commit in the wiki repository.
 
