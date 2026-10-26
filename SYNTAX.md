@@ -64,19 +64,20 @@ Example:
 See the [Git documentation](https://git-scm.com/doc) for more information.
 ```
 
-### 2.3. Links to attachments
+### 2.3. Links to downloadable attachments
 
-Attachments must be referenced using their path relative to the wiki root.
+Links to downloadable files must follow a consistent format that includes a download icon and the file name.
 
-Example:
+Use the following syntax:
 
 ```markdown
-See the [system overview](images/system-overview.png).
+[`📥 file.pdf`](files/file.pdf)
 ```
 
 Unlike wiki page links, attachment links must include the file name and its extension.
 
-Avoid platform-specific link syntaxes or absolute URLs pointing to a particular GitHub or GitLab wiki instance.
+The link target must point to the file in the `files/` directory.
+
 
 ## 3. Mathematical Formulas
 
@@ -193,19 +194,7 @@ Result:
 > [!caution]
 > Verify the configuration before applying changes to a running system.
 
-## 5. Downloadable Attachments
-
-Links to downloadable files must follow a consistent format that includes a download icon and the file name.
-
-Use the following syntax:
-
-```markdown
-[`📥 file.pdf`](images/file.pdf)
-```
-
-The link target must point to the file in the `files/` directory.
-
-## 6. General Markdown Guidelines
+## 5. General Markdown Guidelines
 
 To maintain readability and cross-platform compatibility, follow these additional guidelines:
 
@@ -217,7 +206,7 @@ To maintain readability and cross-platform compatibility, follow these additiona
 - Verify that links point to existing pages or files before committing changes.
 - Check the rendered result on both GitHub and GitLab when introducing a new Markdown feature.
 
-## 7. Compatibility Principle
+## 6. Compatibility Principle
 
 The primary requirement is that the same wiki content must be usable on both GitHub and GitLab without modification.
 
