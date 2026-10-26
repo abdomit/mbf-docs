@@ -125,13 +125,6 @@ The following block types are permitted:
 - `[!warning]`
 - `[!caution]`
 
-Use the following syntax:
-
-```markdown
-> [!note]
-> This is a note providing additional information.
-```
-
 ### Examples
 
 #### Note
@@ -194,19 +187,7 @@ Result:
 > [!caution]
 > Verify the configuration before applying changes to a running system.
 
-## 5. General Markdown Guidelines
-
-To maintain readability and cross-platform compatibility, follow these additional guidelines:
-
-- Use standard Markdown syntax whenever possible.
-- Separate headings, paragraphs, lists, links, and code blocks with blank lines.
-- Use fenced code blocks for source code and command-line examples. Specify the language when appropriate, such as `bash`, `python`, or `text`.
-- Use relative paths for links to wiki pages and attachments.
-- Avoid platform-specific extensions or rendering features unless their compatibility has been verified.
-- Verify that links point to existing pages or files before committing changes.
-- Check the rendered result on both GitHub and GitLab when introducing a new Markdown feature.
-
-## 6. Compatibility Principle
+## 5. Compatibility Principle
 
 The primary requirement is that the same wiki content must be usable on both GitHub and GitLab without modification.
 
