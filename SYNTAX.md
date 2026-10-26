@@ -152,12 +152,22 @@ Result:
 > Use a relative link when referencing another wiki page.
 ```
 
+Result:
+
+> [!tip]
+> Use a relative link when referencing another wiki page.
+
 #### Important
 
 ```markdown
 > [!important]
 > Update the manually maintained table of contents when adding a new page.
 ```
+
+Result:
+
+> [!important]
+> Update the manually maintained table of contents when adding a new page.
 
 #### Warning
 
@@ -166,12 +176,22 @@ Result:
 > Changing this parameter may affect the system configuration.
 ```
 
+Result:
+
+> [!warning]
+> Changing this parameter may affect the system configuration.
+
 #### Caution
 
 ```markdown
 > [!caution]
 > Verify the configuration before applying changes to a running system.
 ```
+
+Result:
+
+> [!caution]
+> Verify the configuration before applying changes to a running system.
 
 ## 5. Downloadable Attachments
 
