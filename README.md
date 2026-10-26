@@ -30,11 +30,13 @@ The wiki content does not contain any absolute references to the hosting platfor
 
 The wiki content is versioned in a dedicated Git repository and can be cloned using either HTTPS or SSH.
 
+Clone using HTTPS:
 ```bash
-# Clone using HTTPS
 git clone https://github.com/abdomit/mbf-docs.wiki.git
+```
 
-# Clone using SSH
+Clone using SSH:
+```bash
 git clone git@github.com:abdomit/mbf-docs.wiki.git
 ```
 
@@ -61,7 +63,7 @@ The following files require particular attention:
 - `_Sidebar.md`
 - `home.md`
 - `home-Help-Pages-for-Multi-Bunch-Feedback.md`
-- `home-Help-Pages-for-Multi-Bunch-Feedback-(version-1.3).md`
+- `home-Help-Pages-for-Multi-Bunch-Feedback-version-1.3.md`
 
 ### Visual editing
 
@@ -71,4 +73,4 @@ In particular, the GitLab visual editor can be useful for editing complex tables
 
 ### Version tracking
 
-Whenever a new MBF version is released, update `VERSIONS.md` with the commit SHA of the wiki documentation corresponding to that version.
+Whenever a new MBF version is released, update [`VERSIONS.md`](VERSION.md) with the commit SHA of the wiki documentation corresponding to that version.
