@@ -168,8 +168,6 @@ Use the following syntax:
 > Verify the configuration before applying changes to a running system.
 ```
 
-**Compatibility note:** Admonition syntax is not interpreted identically by all Markdown renderers. Verify the appearance of these blocks on both GitHub and GitLab. If a block is not rendered as intended, use a plain blockquote instead.
-
 ## 5. Downloadable Attachments
 
 Links to downloadable files must follow a consistent format that includes a download icon and the file name.
@@ -180,15 +178,7 @@ Use the following syntax:
 [`📥 file.pdf`](images/file.pdf)
 ```
 
-The link target must point to the file in the `images/` directory.
-
-### Examples
-
-Link to a PDF document:
-
-```markdown
-[`📥 User-Manual.pdf`](images/User-Manual.pdf)
-```
+The link target must point to the file in the `files/` directory.
 
 ## 6. General Markdown Guidelines
 

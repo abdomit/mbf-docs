@@ -4,8 +4,6 @@ This repository is the entry point for the **MBF-DLS documentation**.
 
 The documentation itself is maintained in the **Wiki** associated with this repository.
 
-## Documentation
-
 ➡️ **[Go to the MBF-DLS Wiki](https://github.com/abdomit/mbf-docs/wiki)**
 
 ## Repository contents
@@ -70,8 +68,6 @@ The following files require particular attention:
 A visual editor can be helpful when creating or modifying complex page layouts.
 
 In particular, the GitLab visual editor can be useful for editing complex tables, including tables with nested structures.
-
-Always verify the resulting Markdown to ensure that it remains compatible with both GitHub and GitLab wikis.
 
 ### Version tracking
 
