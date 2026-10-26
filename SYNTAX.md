@@ -140,6 +140,11 @@ Use the following syntax:
 > This parameter is optional.
 ```
 
+Result:
+
+> [!note]
+> This parameter is optional.
+
 #### Tip
 
 ```markdown

@@ -71,6 +71,8 @@ A visual editor can be helpful when creating or modifying complex page layouts.
 
 In particular, the GitLab visual editor can be useful for editing complex tables, including tables with nested structures.
 
+Sadly Github does not offer a visual editor to edit complex elements.
+
 ### Version tracking
 
-Whenever a new MBF version is released, update [`VERSIONS.md`](VERSION.md) with the commit SHA of the wiki documentation corresponding to that version.
+Whenever a new MBF version is released, update [`VERSIONS.md`](VERSIONS.md) with the commit SHA of the wiki documentation corresponding to that version.
