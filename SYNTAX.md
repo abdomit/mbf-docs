@@ -4,15 +4,12 @@ This document defines the rules to follow when creating or modifying wiki pages 
 
 The main objective is to ensure that the documentation remains compatible with both **GitHub and GitLab wikis**, without requiring platform-specific modifications.
 
-When in doubt, prefer simple Markdown syntax supported by both platforms.
-
 ## 1. File Organisation
 
 Follow these rules when creating or organising wiki files:
 
 - **Markdown files:** All `.md` files must be located at the root of the wiki repository.
 - **File names:** File names must not contain spaces. Use hyphens (`-`) to separate words when necessary.
-- **Attachments:** All attachments must be stored in the `images/` directory, regardless of their file type. This includes images, PDF documents, and other downloadable files.
 
 Examples:
 
