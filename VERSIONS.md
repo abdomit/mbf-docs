@@ -8,6 +8,6 @@ Each entry identifies the commit containing the documentation associated with a 
 
 | MBF Version | Wiki Commit SHA |
 |---|---|
-| 1.4.2 | `<commit-sha-for-version-1.3>` |
+| 1.4.2 | 7659fb0 |
 
 **Note:** The commit SHA must refer to a commit in the wiki repository, not the main documentation repository.

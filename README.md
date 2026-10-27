@@ -17,7 +17,7 @@ This repository contains the guidelines and metadata required to maintain the MB
 
 ## About the wiki repository
 
-The documentation content itself is maintained in the project wiki, associated with this repository.
+The documentation content itself is maintained in the project wiki, which is different from the repository associated with this page.
 
 The wiki pages are designed to be compatible with both GitHub and GitLab wikis, despite differences in Markdown syntax and supported features. To ensure portability between the two platforms, wiki pages should use a relatively simple and widely supported subset of Markdown.
 
